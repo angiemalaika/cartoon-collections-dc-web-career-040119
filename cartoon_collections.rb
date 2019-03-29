@@ -14,7 +14,6 @@ def summon_captain_planet(array)
 end
 
   return newArr.join()
-  end
   count += 1
   end
 
