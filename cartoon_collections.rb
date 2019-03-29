@@ -4,10 +4,13 @@ def roll_call_dwarves(dwarves)
 
 end
 
-
-def summon_captain_planet(array)
+def summon_captain_planet(veggies)# code an argument here
   # Your code here
-  array.map {|word| word.upcase+"!"}
+  # planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
+    veggies.collect do |call| 
+    call.capitalize + "!"
+  end
+
 end
 
 
