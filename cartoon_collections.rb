@@ -8,8 +8,8 @@ end
 
 def summon_captain_planet(array)
   # Your code here
-  array.map!{|word| word.capitalize}
-  array.each {|name| puts name + "!"}
+  array.map!{|word|word.capitalize}
+  array.each{|name| puts name + "!"}
 end
 
 
