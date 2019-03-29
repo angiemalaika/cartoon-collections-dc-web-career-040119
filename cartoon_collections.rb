@@ -13,7 +13,7 @@ def summon_captain_planet(array)
   array.each{|word| puts word + "!"}
 end
 end
-end
+
 
 def long_planeteer_calls(array)
   # Your code here
@@ -34,6 +34,5 @@ def find_the_cheese(array)
   end
 
   return nil
-
-
+end
 end
