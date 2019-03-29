@@ -13,7 +13,6 @@ def summon_captain_planet(array)
   array.each{|word| puts word + "!"}
 end
 
-  return newArr.join()
   count += 1
   return nil
 
