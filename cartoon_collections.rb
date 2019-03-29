@@ -13,7 +13,7 @@ def summon_captain_planet(array)
 end 
   array.each{|word| puts word + "!"}
 end
-
+end
 
 def long_planeteer_calls(array)
   # Your code here
