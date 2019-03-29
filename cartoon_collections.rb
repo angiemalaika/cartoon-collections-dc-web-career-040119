@@ -10,7 +10,6 @@ def summon_captain_planet(array)
   # Your code here
   array.map!{|word|puts word.capitalize}
   
-end 
   array.each{|word| puts word + "!"}
 end
 end
