@@ -15,8 +15,6 @@ end
 
   return newArr.join()
   count += 1
-  end
-
   return nil
 end
 end 
