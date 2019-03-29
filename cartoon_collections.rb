@@ -12,22 +12,7 @@ def summon_captain_planet(array)
   
   array.each{|word| puts word + "!"}
 end
-end
 
-
-def long_planeteer_calls(array)
-  # Your code here
-  array.any? {|word| word.size > 4}
-end
-
-def find_the_cheese(array)
-  # the array below is here to help
-  cheese_types = ["cheddar", "gouda", "camembert"]
-  count = 0
-
-  while count < cheese_types.size
-  newArr = array.select {|food| food == cheese_types[count]}
-  if newArr.size > 0
   return newArr.join()
   end
   count += 1
